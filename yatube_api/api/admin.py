@@ -1,3 +1,2 @@
-from django.contrib import admin
-
-# Register your models here.
+# У приложения api нет собственных моделей — регистрировать в админке
+# нечего, модели Group/Post/Comment/Follow зарегистрированы в posts/admin.py.
